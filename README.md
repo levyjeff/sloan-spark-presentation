@@ -7,3 +7,6 @@ Pandoc must be installed (not a default conda package), then replace the path wi
 jupyter nbconvert --to slides "index.ipynb" --SlidesExporter.reveal_transition=convex --reveal-prefix reveal.js --ServerPostProcessor.ip="0.0.0.0" --ServePostProcessor.port=8910 --post serve
 
 Then rename *index.slides.html* to *index.html*
+
+New:
+jupyter nbconvert --to slides "index.ipynb"
